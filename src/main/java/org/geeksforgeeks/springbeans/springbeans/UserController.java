@@ -1,3 +1,4 @@
+/*
 package org.geeksforgeeks.springbeans.springbeans;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,3 +31,4 @@ public class UserController {
         return new ResponseMessage(Collections.singletonList(user));
     }
 }
+*/
