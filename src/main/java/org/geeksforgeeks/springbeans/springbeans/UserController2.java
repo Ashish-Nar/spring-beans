@@ -16,6 +16,12 @@ public class UserController2 {
     @Autowired
     UserConfig config;
 
+    // In case of object name is users and scope is singleton
+    // At startup : In UserConfig class : In getMyUser() function and Component User Object : org.geeksforgeeks.springbeans.springbeans.Users@987455b
+    // and gBean User function : org.geeksforgeeks.springbeans.springbeans.Users@622fdb81
+
+    // user2 API call : Object Name : org.geeksforgeeks.springbeans.springbeans.Users@622fdb81
+    // user API call : Object Name : org.geeksforgeeks.springbeans.springbeans.Users@987455b
 
     @GetMapping
     public ResponseMessage getUser(){

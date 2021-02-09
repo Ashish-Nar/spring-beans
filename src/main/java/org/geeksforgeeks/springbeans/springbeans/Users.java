@@ -5,15 +5,15 @@ import org.springframework.stereotype.Component;
 
 
 @Component
-@Scope("prototype")
+//@Scope("prototype")
 public class Users {
 
     private String name;
     private int age;
 
-    public Users(){
+    /*public Users(){
 
-    }
+    }*/
 
     /*public Users(String name, int age) {
         this.name = name;

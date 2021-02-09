@@ -14,8 +14,9 @@ public class UserConfig {
 
     @Bean
     public Users getMyUser(){
-        System.out.println("In UserConfig class : In getMyUser() function.");
-        //return new Users();
-        return user;
+        Users beanUser = new Users();
+        System.out.println("In UserConfig class : In getMyUser() function and Component User Object : "+user+" and gBean User function : "+beanUser);
+        return beanUser;
+        //return user;
     }
 }
